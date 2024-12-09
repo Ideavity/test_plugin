@@ -15,7 +15,9 @@
 		<config-file parent="/*" target="res/xml/config.xml">
 			<feature name="eSIM">
 				<param name="android-package" value="com.outsystems.eSIM" />
-			</feature>
+			</feature>	
+			<preference name="android-minSdkVersion" value="23" />
+			<preference name="android-targetSdkVersion" value="31" />
 		</config-file>
 		<config-file parent="/*" target="AndroidManifest.xml" />
 		<source-file src="src/android/eSIM.java" target-dir="src/com/outsystems" />
